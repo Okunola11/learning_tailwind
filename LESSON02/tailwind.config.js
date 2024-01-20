@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        "widescreen": { "raw": "(min-aspect-ratio: 3/2)" },
-        "tallscreen": { "raw": "(min-aspect-ratio: 13/20)" }, //65%
+        widescreen: { raw: "(min-aspect-ratio: 3/2)" },
+        tallscreen: { raw: "(max-aspect-ratio: 13/20)" }, //65%
       },
       keyframes: {
         "open-menu": {
